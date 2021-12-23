@@ -1,0 +1,31 @@
+.profile-container {
+  .profile-content {
+    background-color: #e0e0e0;
+    width: 343px;
+    height: 343px;
+    border-radius: 5px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+  .profile-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    .button-camera,
+    .button-gallery {
+      cursor: pointer;
+      background-color: #006c84;
+      color: white;
+      width: 341px;
+      height: 40px;
+      margin: 0 auto;
+      border-radius: 5px;
+      border-color: none;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+  }
+}

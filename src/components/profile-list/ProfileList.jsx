@@ -15,6 +15,7 @@ function ProfileList() {
 
   return (
     <div className='profile-container'>
+      {isLoading ? (<h1>Loading...</h1>) : ''}
       {profile.map(profil => {
         return (
           <div key={profil.id} className='profile-list'>
